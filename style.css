@@ -20,15 +20,15 @@ body {
     position: relative;
     min-height: 100%;
     min-width: 600px;
-    margin: 0;
+    padding: 2%;
     background-color: var(--fondo);
 }
 
 .hero{
-    padding: 10px 3% 20px;;
-    margin: 2%, 15% 2% ;
+    padding: 10px 30% 20px;
+    color: var(--textoPrincipal);
     background-color: var(--secundary);
-    border-radius: 1%;
+    border-radius:3%;
     box-shadow: #1a1a1a 0px 0px 2px 0px;
 }
 
@@ -56,7 +56,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
+}
+
+.btn_contacto {
+    background-color: var(--primary);
 }
 
 .container_sobre_mi {
@@ -73,4 +77,14 @@ body {
     color: var(--primary);
     width: 32px;
     height: 32px;
+}
+
+.container_social_link{
+    color: var(--secundary);
+}
+
+.container_social_links_s{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: var(--primary) ;
 }
